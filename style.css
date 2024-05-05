@@ -1,0 +1,60 @@
+judul h1 {
+    font-size: 3rem;
+    color: var(--black);
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+
+  body{
+    background-color: #BBE7FE;
+  }
+  
+  .container {
+    padding: 20px;
+    margin: 50px;
+    background-color: #d3b5e5; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  table {
+    background-color: #f9ffbb;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    background-color: #FFD4DB;
+    color: #000000;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 1.5rem;
+  }
+  
+  td {
+    padding: 15px; 
+    border-bottom: 1px solid #425e7a;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  
+  tbody tr:hover {
+    background-color: #bacada;
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+.input {
+  display: flex;
+  float: inline-end;
+  align-items: center;
+  justify-content: center;
+  
+}
