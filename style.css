@@ -1,25 +1,23 @@
 .judul h1 {
     font-size: 3rem;
     color: var(--black);
-    text-align: center; 
-    margin-bottom: 20px;
-    margin: 50px; 
-    width: 100%;
+    text-align: center;
   }
 
   body{
-    background-color: #BBE7FE;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .container {
-    padding: 20px;
+    padding: 10px;
     margin: 50px;
-    width: 100%;
+    width: 90%;
     background-color: #d3b5e5; 
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
-  
+
   table {
     background-color: #f9ffbb;
     width: 100%;
@@ -31,7 +29,7 @@
     background-color: #FFD4DB;
     color: #000000;
     font-weight: bold;
-    padding: 20px 30px;
+    padding: 15px;
     text-align: center;
     border-radius: 0px;
     font-size: 1.5rem;
@@ -54,3 +52,129 @@
     text-align: center;
   }
 
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.table{
+  background-color: #BBE7FE;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 90px;
+  font-size: medium;
+}
+
+footer {
+    background-color: #202942;
+    color: #adb5bd;
+    text-align: center;
+    padding: 50px 0;
+    position: fixed;
+}
+
+.judulprofil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #777;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
